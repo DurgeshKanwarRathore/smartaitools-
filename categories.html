@@ -4,19 +4,79 @@
 <meta charset="UTF-8">
 <title>AI Categories - Smart AI Tools</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <style>
-body{margin:0;font-family:Arial;background:#f9f9ff;}
-header{background: linear-gradient(135deg,#8f94fb,#4e54c8);color:white;text-align:center;padding:25px;}
-nav{background:#fff;text-align:center;padding:10px;}
-nav a{margin:0 10px;text-decoration:none;color:#4e54c8;font-weight:bold;}
-.container{padding:20px; display:flex; flex-wrap:wrap; justify-content:center;}
-.category-card{background:white;border-radius:12px;padding:20px;margin:10px;width:200px;text-align:center;box-shadow:0 4px 10px rgba(0,0,0,0.1);}
-.category-card h3{color:#4e54c8;margin-top:0;}
-.category-card p{color:#555;font-size:14px;}
-.category-card a{display:inline-block;margin-top:10px;padding:8px 15px;background:#8f94fb;color:white;text-decoration:none;border-radius:20px;font-size:14px;}
-footer{text-align:center;font-size:13px;color:#666;padding:15px;}
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#f2f6ff;
+}
+
+header{
+  background:linear-gradient(135deg,#11998e,#38ef7d);
+  color:white;
+  text-align:center;
+  padding:25px 15px;
+}
+
+nav{
+  background:#fff;
+  text-align:center;
+  padding:10px;
+}
+
+nav a{
+  margin:0 10px;
+  text-decoration:none;
+  color:#11998e;
+  font-weight:bold;
+}
+
+nav a:hover{
+  background:#11998e;
+  color:white;
+  padding:6px 12px;
+  border-radius:20px;
+  transition:0.3s;
+}
+
+.container{
+  padding:20px;
+}
+
+.category{
+  background:white;
+  border-radius:12px;
+  padding:20px;
+  margin-bottom:20px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+  transition:0.3s;
+}
+
+.category:hover{
+  transform:translateY(-5px);
+  box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+.category h3{
+  margin-top:0;
+  color:#11998e;
+}
+
+.category p{
+  font-size:14px;
+  color:#555;
+}
+
+footer{
+  text-align:center;
+  padding:15px;
+  background:#fff;
+  border-top:1px solid #ddd;
+}
 </style>
 </head>
+
 <body>
 
 <header>
@@ -25,36 +85,49 @@ footer{text-align:center;font-size:13px;color:#666;padding:15px;}
 </header>
 
 <nav>
-  <a href="index.html">Home</a>
-  <a href="tools.html">AI Tools</a>
-  <a href="categories.html">Categories</a>
-  <a href="contact.html">Contact</a>
+<a href="index.html">Home</a>
+<a href="tools.html">AI Tools</a>
+<a href="categories.html">Categories</a>
+<a href="contact.html">Contact</a>
 </nav>
 
 <div class="container">
-<div class="category-card">
-<h3>Writing AI</h3>
-<p>Blog, Email, Captions, Articles generate with AI.</p>
-<a href="tools.html#writing">See Tools</a>
-</div>
-<div class="category-card">
-<h3>Image AI</h3>
-<p>Create AI images, designs, posters easily.</p>
-<a href="tools.html#image">See Tools</a>
-</div>
-<div class="category-card">
-<h3>Video AI</h3>
-<p>Generate AI videos for YouTube, Reels & more.</p>
-<a href="tools.html#video">See Tools</a>
-</div>
-<div class="category-card">
-<h3>Voice AI</h3>
-<p>Text to voice, AI dubbing, voice assistants.</p>
-<a href="tools.html#voice">See Tools</a>
-</div>
+
+<div class="category">
+<h3>✍️ Writing & Content</h3>
+<p>AI tools for blog writing, paraphrasing, grammar and content creation.</p>
 </div>
 
-<footer>© 2026 Smart AI Tools</footer>
+<div class="category">
+<h3>🎨 Image & Design</h3>
+<p>Create AI images, posters, thumbnails and designs.</p>
+</div>
+
+<div class="category">
+<h3>🎥 Video & Audio</h3>
+<p>AI tools for video creation, voice generation and editing.</p>
+</div>
+
+<div class="category">
+<h3>📚 Study & Education</h3>
+<p>AI tools for students, notes, homework and learning help.</p>
+</div>
+
+<div class="category">
+<h3>💼 Resume & Career</h3>
+<p>AI resume builders, interview preparation and job tools.</p>
+</div>
+
+<div class="category">
+<h3>📈 Marketing & Business</h3>
+<p>AI tools for ads, SEO, social media and business growth.</p>
+</div>
+
+</div>
+
+<footer>
+© 2026 Smart AI Tools
+</footer>
 
 </body>
 </html>
